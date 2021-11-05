@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  <table width="200" border="1">
+  <tr>
+    <th scope="col">Type/Series</th>
+    <th scope="col"><input id="series1" type="text" onChange="LiveName('s1','series1')" value="Series-1"></th>
+    <th scope="col"><input id="series2" type="text" onChange="LiveName('s2','series2')" value="Series-2"></th>
+    <th scope="col"><input id="series3" type="text" onChange="LiveName('s3','series3')" value="Series-3"></th>
+  </tr>
+  <tr>
+    <th scope="row">Type-1</th>
+    <td><input type="text" id="value11" value="11" onkeypress='return validNum(event);'></td>
+    <td><input type="text" id="value21" value="21" onkeypress='return validNum(event);'></td>
+    <td><input type="text" id="value31" value="31" onkeypress='return validNum(event);'></td>
+  </tr>
+  <tr>
+    <th scope="row">Type-2</th>
+    <td><input type="text" id="value12" value="12" onkeypress='return validNum(event);'></td>
+    <td><input type="text" id="value22" value="22" onkeypress='return validNum(event);'></td>
+    <td><input type="text" id="value32" value="32" onkeypress='return validNum(event);'></td>
+  </tr>
+  <tr>
+    <th scope="row">Type-3</th>
+    <td><input type="text" id="value13" value="13" onkeypress='return validNum(event);'></td>
+    <td><input type="text" id="value23" value="23" onkeypress='return validNum(event);'></td>
+    <td><input type="text" id="value33" value="33" onkeypress='return validNum(event);'></td>
+  </tr>
+  <tr>
+    <th scope="row">Type-4</th>
+    <td><input type="text" id="value14" value="14" onkeypress='return validNum(event);'></td>
+    <td><input type="text" id="value24" value="24" onkeypress='return validNum(event);'></td>
+    <td><input type="text" id="value34" value="34" onkeypress='return validNum(event);'></td>
+  </tr>
+  <tr>
+    <th scope="row">Type-5</th>
+    <td><input type="text" id="value15" value="15" onkeypress='return validNum(event);'></td>
+    <td><input type="text" id="value25" value="25" onkeypress='return validNum(event);'></td>
+    <td><input type="text" id="value35" value="35" onkeypress='return validNum(event);'></td>
+  </tr>
+</table>
+
+<p id="demo"></p> 
+
+	<div class="graph-content">
+    <div class="graph">
+        <img src="image/scale.jpg" style="height:417px; position:relative; top:5px; left:4px;"> 
+        <canvas id="canvas" width=800 height=400></canvas>        
+    </div>
+    
+    <div class="statics">
+    	<div class="series">
+        	<div class="scolor scolor1"></div>
+        	<div>
+            	<input type="radio" name="series" value="0" onClick="DrawLine(0)">
+            	<span id="s1">Series-1</span>
+            </div>
+        </div>
+        <div class="series">
+        	<div class="scolor scolor2"></div> 
+            <div>
+            	<input type="radio" name="series" value="1" onClick="DrawLine(1)">
+            	<span id="s2">Series-2</span>
+            </div>
+        </div>
+        <div class="series">
+        	<div class="scolor scolor3"></div> 
+            <div>
+            	<input type="radio" name="series" value="2" onClick="DrawLine(2)">
+            	<span id="s3">Series-3</span>
+            </div>
+        </div>
+    </div>
+	</div>
+
+    <br>
+    <div class="x-axis">
+       <span class="y-axis" id="y1">Type-1</span>
+       <span class="y-axis" id="y2">Type-2</span>
+       <span class="y-axis" id="y3">Type-3</span>
+       <span class="y-axis" id="y4">Type-4</span>
+       <span class="y-axis" id="y5">Type-5</span>
+    </div>   
+    
+  </body>
+</html>
+
+<script src="js/settings.js"></script>

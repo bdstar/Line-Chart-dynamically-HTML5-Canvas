@@ -1,0 +1,49 @@
+body {
+	background-color: ivory;
+}
+canvas{
+	border:1px solid red; 
+	background:#fff;
+}
+.y-axis{ 
+	float:left; 
+	padding-right:158px; 
+	position:relative;
+}
+.graph-content{
+	width:1100px; 
+	visibility:visible; 
+	background:#FCF;
+}
+.graph{
+	width:850px; 
+	float:left;
+}
+.statics{
+	width:245px; 
+	float:left; 
+	background:#9FF; 
+	margin-top:90px; 
+	border:1px double black;
+}
+.series{
+	padding:20px 25px;
+}
+.scolor{
+	width:15px; 
+	height:15px; 
+	float:left; 
+	margin-right:10px;
+}
+.scolor1{
+	background:blue;
+}
+.scolor2{
+	background:green;
+}
+.scolor3{
+	background:yellow;
+}
+.x-axis{
+	float: left;
+}
