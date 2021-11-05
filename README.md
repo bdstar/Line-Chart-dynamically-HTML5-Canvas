@@ -7,7 +7,7 @@ With the ongoing progress of HTML5 and its powerful specifications, web develope
 Clone the project from the Github repository and run your Webserver. Open the project the to web browser. 
 
 
-![Draw Line Chart dynamically using HTML5 Canvas](https://raw.githubusercontent.com/bdstarLine-Chart-dynamically-HTML5-Canvas/main/images/1_LineChart.PNG)
+![Draw Line Chart dynamically using HTML5 Canvas](https://raw.githubusercontent.com/bdstar/Line-Chart-dynamically-HTML5-Canvas/main/image/1_LineChart.PNG)
 
 ## Conclusion
 The canvas element is part of HTML5 and allows for dynamic, scriptable rendering of 2D shapes and bitmap images. It is a low level, procedural model that updates a bitmap and does not have a built-in scene graph. Here is am trying to present to draw the line chart that’s values can be dynamically input by the user. You can use this line chart for any visual representation of the statically data. So keep going with canvas and Happy coding…:)
